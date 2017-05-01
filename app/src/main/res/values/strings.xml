@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Live Snap Gallery</string>
+    <string name="error_base_template_rationale">
+        You are seeing this screen because you forgot to return a correct value for
+        BaseActivity#setContentView. Fix this method call to return the resource ID of the layout
+        you would like to view.
+    </string>
+
+    <!-- Verbs -->
+    <string name="retry">Retry</string>
+
+    <!-- Error States -->
+    <string name="error_too_short">This field is too short</string>
+    <string name="error_too_long">This field is too long</string>
+    <string name="error_required">This field is required</string>
+    <string name="error_no_connection">No connection</string>
+</resources>

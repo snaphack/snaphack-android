@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/app_bar" />
+
+    <FrameLayout
+        android:id="@+id/activity_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:padding="@dimen/standard_padding"
+            android:text="@string/error_base_template_rationale" />
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
